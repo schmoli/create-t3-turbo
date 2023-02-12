@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
+  "exports": {
+    ".": "./src/index.tsx",
+    "./styles.css": "./src/styles.css"
+  },
   "license": "MIT",
   "scripts": {
     "clean": "rm -rf .turbo node_modules",

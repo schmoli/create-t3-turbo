@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* Default text color */
+    /* TODO: change */
+    @apply bg-green-100 text-gray-700;
+  }
+  label {
+    /* TODO: change */
+    @apply block text-sm text-gray-700;
+  }
+}
+
+/* Form Overwrites */
+@layer utilities {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    /* TODO: change */
+    @apply placeholder:font-light placeholder:italic placeholder:text-gray-300;
+  }
+}
