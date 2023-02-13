@@ -15,6 +15,7 @@
     "@acme/api": "*",
     "@acme/auth": "*",
     "@acme/db": "*",
+    "@acme/lib": "*",
     "@acme/tailwind-config": "*",
     "@acme/ui": "*",
     "@tanstack/react-query": "^4.23.0",
