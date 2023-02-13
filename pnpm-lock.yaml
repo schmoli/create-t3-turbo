@@ -35,6 +35,7 @@ importers:
       '@acme/api': '*'
       '@acme/auth': '*'
       '@acme/db': '*'
+      '@acme/lib': '*'
       '@acme/tailwind-config': '*'
       '@acme/ui': '*'
       '@tanstack/react-query': ^4.23.0
@@ -61,6 +62,7 @@ importers:
       '@acme/api': link:../../packages/api
       '@acme/auth': link:../../packages/auth
       '@acme/db': link:../../packages/db
+      '@acme/lib': link:../../packages/lib
       '@acme/tailwind-config': link:../../packages/config/tailwind
       '@acme/ui': link:../../packages/ui
       '@tanstack/react-query': 4.23.0_biqbaboplfbrettd7655fr4n2y
@@ -156,6 +158,14 @@ importers:
     devDependencies:
       dotenv-cli: 7.0.0
       prisma: 4.10.1
+      typescript: 4.9.5
+
+  packages/lib:
+    specifiers:
+      eslint: ^8.32.0
+      typescript: ^4.9.5
+    devDependencies:
+      eslint: 8.32.0
       typescript: 4.9.5
 
   packages/ui:
