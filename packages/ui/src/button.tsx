@@ -5,7 +5,7 @@ export const Button = ({children}: {children: ReactNode}) => {
     console.log("Boop");
   });
   return (
-    <div className="p-2 m-2 text-indigo-700 bg-white border border-black rounded">
+    <div className="p-2 m-2 text-indigo-700 bg-green-300 border border-black rounded">
       {children}
     </div>
   );
